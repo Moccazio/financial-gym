@@ -10,7 +10,7 @@ setup(
     name='financial-gym',
     version='1.0',
     packages=find_packages(),
-    install_requires=['gym==0.22', "alpaca-py==0.6.1", "ray==2.1.0", "ray[rllib]==2.1.0", "tensorflow", "mplfinance==0.12.9b5"],  
+    install_requires=['gym', "alpaca-py", "ray", "ray[rllib]", "tensorflow", "tensorflow-macos", "tensorflow-metal" "mplfinance"],  
     author='Gabriele Ansaldo',
     author_email='ansaldo.g@northeastern.edu',
 )
