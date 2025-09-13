@@ -3,14 +3,19 @@
 
 ## Install
 
-``` 
-virtualenv venv
-source venv/bin/activate
-git clone https://github.com/gabriansa/financial-gym
+```
+conda env = python 3.10 or higher
+conda activate env 
+git clone https://github.com/Moccazio/financial-gym
 cd financial-gym
 pip3 install -e .
 ```
-
+or
+```
+conda env = python 3.10 or higher
+conda activate env 
+pip install git+https://github.com/Moccazio/financial-gym
+```
 ## Commands
 
 Render environment (with random actions):
